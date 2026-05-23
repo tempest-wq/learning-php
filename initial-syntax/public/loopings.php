@@ -1,8 +1,10 @@
 <?php
+
+$values = ["Ferdinando", "Jose", "Maria", "Gabriel"];
+
 echo "----------------For------------------";
 echo "\n";
 // Loop For
-$values = ["Ferdinando", "Jose", "Maria", "Gabriel"];
 
 for ($i = 0; $i < count($values); $i++) {
     echo $values[$i] . " ";
@@ -35,4 +37,14 @@ echo "\n";
 echo "\n";
 
 echo "----------------Foreach------------------";
+echo "\n";
+//ForEach - Para cada : Itera sobre chave => valor, onde $key representa o indice e $value o valor do indice
+foreach ($values as $key => $value) {
+    // caso use $values as $value itera sem guardar os indices
+    echo $key . "=>" . $value;
+    echo "\n";
+}
+
+echo "\n";
+echo "----------------Continue e Break------------------";
 echo "\n";
