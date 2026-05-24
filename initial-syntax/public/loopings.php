@@ -48,3 +48,17 @@ foreach ($values as $key => $value) {
 echo "\n";
 echo "----------------Continue e Break------------------";
 echo "\n";
+for ($l = 0; $l < count($values); $l++) {
+    if ($l == 1) {
+        continue;
+    }
+    echo $values[$l];
+}
+echo "\n";
+
+for ($m = 0; $m < count($values); $m++) {
+    if ($m == 1) {
+        break;
+    }
+    echo $values[$m];
+}
