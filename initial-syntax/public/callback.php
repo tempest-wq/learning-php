@@ -68,7 +68,7 @@ class Person
 
 $person = new Person();
 
-echo $person();
+//echo $person();
 echo "\n";
 
 function pessoa($callback)
@@ -77,3 +77,25 @@ function pessoa($callback)
 }
 
 echo pessoa($person);
+echo "\n";
+
+function ondeMora($cidade, $numeroCasa)
+{
+    return "Moro na " . $cidade . " no número " . $numeroCasa;
+}
+
+echo call_user_func_array("ondeMora", ["Casa do carai", "748"]); //Parametros passados no callback serem chamados no formato de array
+echo "\n";
+
+//Usar closure como callback
+$callClosure = function ($teste) {
+    return "Teste de callback" . $teste;
+};
+
+function funcCallback($callback)
+{
+    return call_user_func_array($callback, [
+        "Qualquer merda de teste do caralho",
+    ]);
+}
+echo funcCallback($callClosure);
