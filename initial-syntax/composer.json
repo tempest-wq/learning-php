@@ -1,0 +1,17 @@
+{
+    "name": "vash/initial-syntax",
+    "autoload": {
+        "psr-4": {
+            "Vash\\InitialSyntax\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor (Vash)",
+            "email": "vashgithub@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

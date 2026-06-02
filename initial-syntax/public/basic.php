@@ -119,6 +119,7 @@ switch ($nome) {
 echo "\n";
 echo "-----------------Booleans Puros, Strings, Numbers-----------------";
 echo "\n";
+
 $namePure = "Vitor"; // Não é puro
 var_dump($namePure);
 $namePure = !!"Vitor"; // Transforma em puro
