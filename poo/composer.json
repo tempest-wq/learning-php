@@ -1,0 +1,15 @@
+{
+    "name": "vash/poo",
+    "autoload": {
+        "psr-4": {
+            "Vash\\Poo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor (Vash)",
+            "email": "vashgithub@gmail.com"
+        }
+    ],
+    "require": {}
+}
