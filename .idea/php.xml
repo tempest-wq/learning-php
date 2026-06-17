@@ -17,13 +17,14 @@
   </component>
   <component name="PhpIncludePathManager">
     <include_path>
+      <path value="$PROJECT_DIR$/poo/vendor/composer" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/composer" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/initial-syntax/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/initial-syntax/vendor/symfony/polyfill-php80" />
-      <path value="$PROJECT_DIR$/initial-syntax/vendor/vlucas/phpdotenv" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
