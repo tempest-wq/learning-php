@@ -1,27 +1,34 @@
 <?php
-
+//Inversão de dependência
+//Dependo de uma interface ou classe abstrata
 require '../vendor/autoload.php';
 
+abstract class DatabaseAbstract
+{
+    abstract public function connect();
+}
 interface DataBaseInterface
 {
     public function connect();
 }
 
-class MysqlDatabase implements DataBaseInterface
+class MysqlDatabase extends DatabaseAbstract implements DataBaseInterface
 {
     public function connect()
     {
         return 'Connected to MySQL';
     }
 }
-class SQLiteDatabase implements DataBaseInterface
+
+class SQLiteDatabase extends DatabaseAbstract implements DataBaseInterface
 {
     public function connect()
     {
         return 'Connected to SQLite';
     }
 }
-class PsgDatabase implements DataBaseInterface
+
+class PsgDatabase extends DatabaseAbstract implements DataBaseInterface
 {
     public function connect()
     {
@@ -31,7 +38,7 @@ class PsgDatabase implements DataBaseInterface
 
 class Database //Base da familia de banco de dados
 {
-    public function connect(DataBaseInterface $database)
+    public function connect(DatabaseAbstract $database)
     {
         return $database->connect();
     }
