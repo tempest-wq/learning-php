@@ -3,6 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/initial-syntax/src" isTestSource="false" packagePrefix="Vash\Poo\" />
+      <sourceFolder url="file://$MODULE_DIR$/initial-syntax/src" isTestSource="false" packagePrefix="Vash\InitialSyntax\" />
+      <sourceFolder url="file://$MODULE_DIR$/poo/src" isTestSource="false" packagePrefix="Vash\Poo\" />
       <excludeFolder url="file://$MODULE_DIR$/initial-syntax/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/initial-syntax/vendor/graham-campbell/result-type" />
       <excludeFolder url="file://$MODULE_DIR$/initial-syntax/vendor/phpoption/phpoption" />

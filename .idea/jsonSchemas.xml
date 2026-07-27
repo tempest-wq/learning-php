@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="No JSON schema">
+          <value>
+            <SchemaInfo>
+              <option name="ignoredFile" value="true" />
+              <option name="name" value="No JSON schema" />
+              <option name="relativePathToSchema" value="" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="file://$PROJECT_DIR$/composer/composer.json" />
+                  </Item>
+                </list>
+              </option>
+              <option name="isIgnoredFile" value="true" />
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="composer.json">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="composer.json" />
+              <option name="relativePathToSchema" value="https://getcomposer.org/schema.json" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="composer-learn/composer.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="phpmailer/composer.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

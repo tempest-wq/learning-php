@@ -1,0 +1,23 @@
+{
+    "name": "vash/composer-learn",
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^7.1",
+        "symfony/var-dumper": "v8.1.1",
+        "php-activerecord/php-activerecord": "^1.2",
+        "cboden/ratchet": "^0.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vash\\ComposerLearn\\": "src/",
+            "app\\": ["app", "services"]
+        },
+        "files": ["functions/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Vitor (Vash)",
+            "email": "vashgithub@gmail.com"
+        }
+    ]
+}

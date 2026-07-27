@@ -1,5 +1,4 @@
 <?php
-require "../vendor/autoload.php";
 //Propriedades estáticas
 //Propriedades e metodos estáticos so fazem parte do contexto da classe.
 // Operador de resolução de escopo (::)

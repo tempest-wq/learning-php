@@ -27,7 +27,9 @@
       <path value="$PROJECT_DIR$/initial-syntax/vendor/symfony/polyfill-php80" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
   <component name="PhpStan">
     <PhpStan_settings>
       <phpstan_by_interpreter asDefaultInterpreter="true" interpreter_id="3cc0d1ad-5b04-4696-8dd0-2fde5c433438" timeout="60000" />

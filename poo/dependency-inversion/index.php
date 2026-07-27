@@ -1,7 +1,6 @@
 <?php
 //Inversão de dependência
 //Dependo de uma interface ou classe abstrata
-require '../vendor/autoload.php';
 
 abstract class DatabaseAbstract
 {

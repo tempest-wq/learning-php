@@ -1,7 +1,4 @@
 <?php
-
-require '../vendor/autoload.php';
-
 interface DataBaseInterface
 {
     public function connect();

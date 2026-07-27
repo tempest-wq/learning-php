@@ -1,0 +1,18 @@
+{
+    "name": "vash/phpmailer",
+    "require": {
+        "phpmailer/phpmailer": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vitor (Vash)",
+            "email": "vashgithub@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
