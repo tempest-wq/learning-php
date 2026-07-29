@@ -1,0 +1,18 @@
+{
+    "name": "vash/complete-oop",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        },
+        "files": [
+            "helpers/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vitor (Vash)",
+            "email": "vashgithub@gmail.com"
+        }
+    ],
+    "require": {}
+}
