@@ -26,7 +26,7 @@ class StaticUser1
         return __CLASS__;
     }
 }
-//self é referenciado a classe que o invoca
+//self é referenciado a classe que o invoca (propria classe)
 //parent é referenciado a classe pai
 //Usar método estático quando for algo muito simples dentro do método,
 //que não precise instanciar, caso queira usar a classe diretamente por exemplo
